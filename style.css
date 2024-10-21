@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #43A047, #e91e1e);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding: 30px;
+    color: white;
+    text-shadow: 3px 1px 9px black;
+}
+
+p{
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+p span{
+    padding: 3px;
+    box-shadow: 0px 1px 12px 1px #490808;
+}
+
+label{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    padding: 6px 70px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.display{
+    display: flex;
+}
+
+.year{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 0 0 4px black;
+}
+
+.month{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 0 0 4px black;
+}
+
+.day{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 0 0 4px black;
+}
